@@ -25,6 +25,18 @@ body {font-family: Arial, Helvetica, sans-serif;}
   width: 280px;
 }
 
+.api-button {
+  background-color:coral;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  bottom: 160px;
+  right: 420px;
+  width: 280px;
+}
+
 #texta{
   
   margin-left: 30px;
@@ -100,15 +112,17 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 <button style="float: right" class="open-button" onclick="showForm()">Message</button>
 
+
+
 <div style="float: right" class="chat-popup" id="textForm">
   <form class="form-container">
     <textarea placeholder="Type message..." id="msg" name="msg" required></textarea>
 
     <button type="button" class="btn send" id="send" onclick="sendt()">Send</button>
+    <button type="button" class="api-button" onclick="visitapi()">Go to API</button>
   </form>
 </div>
 </div>
-
 <script>
 
 var ws = new WebSocket("ws://localhost:8000/ws");
@@ -134,5 +148,8 @@ function showForm() {
   document.getElementById("textForm").style.display = "block";
 }
 
+function visitapi() {
+    window.location.href = "http://localhost:8000/docs";
+}
 </script>
 {% endblock %}
