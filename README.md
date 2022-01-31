@@ -10,15 +10,15 @@ The project is a demo project for fastapi and socket.io implementation. It gives
 Click on the Message button to type your message.  
 ```
 
-```
-![alt text](https://github.com/idontknowtocode/fastapi/blob/static/image2.jpg?raw=true)
 
+![alt text](static/image2.jpg)
+```
 Type any message.
 Also the go to api button allows you to visit the api.  
 ```
-```
-![alt text](https://github.com/idontknowtocode/fastapi/blob/main/static/image3.jpg?raw=true)
 
+![alt text](static/image3.jpg)
+```
 We can see the message is broadcasted to all the active sessions.  
 ```
 
