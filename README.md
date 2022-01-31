@@ -4,9 +4,9 @@
 
 The project is a demo project for fastapi and socket.io implementation. It gives you option to register yourself as a user and login to see the details of the api. Also it alows the user to broadcast messages accross all active sockets. An example can be shown in the images.  
 
-```
-![alt text](static/image1.jpg)
 
+![alt text](static/image1.jpg)
+```
 Click on the Message button to type your message.  
 ```
 
