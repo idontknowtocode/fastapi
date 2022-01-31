@@ -22,7 +22,16 @@ Also the go to api button allows you to visit the api.
 We can see the message is broadcasted to all the active sessions.  
 ```
 
-## Local Setup
+# Visit API
+
+The API consists of login logout functionality which is enabled by the "Authorize" button seen in the image. it allows you to register by just entering your details.  
+
+![alt text](static/image4.jpg)
+
+
+
+
+## Setup Locally
 
 1. Fork this repository!
 
