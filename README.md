@@ -11,7 +11,7 @@ Click on the Message button to type your message.
 ```
 
 ```
-![alt text](https://github.com/idontknowtocode/fastapi/blob/main/static/image2.jpg?raw=true)
+![alt text](https://github.com/idontknowtocode/fastapi/blob/static/image2.jpg?raw=true)
 
 Type any message.
 Also the go to api button allows you to visit the api.  
